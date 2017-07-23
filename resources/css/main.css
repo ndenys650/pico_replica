@@ -40,15 +40,15 @@ body {
 	display: inline-block;
 }
 
-.navigation li.active a{
-	color: #FF6760;
-}
-
 .navigation a {
 	color: #D8D8D8;
 	margin-right:35px;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.navigation a:hover {
+	color: #EB615B;
 }
 
 /* Header Section */
@@ -84,6 +84,18 @@ body {
 	border: none;
 	border-radius: 10px;
 	color: #FFFFFF;
+	display: inline-block;
+	margin: 10px 0 75px 0;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header a:hover {
+	background-color: #D8D8D8;
+	border: none;
+	border-radius: 10px;
+	color: black;
 	display: inline-block;
 	margin: 10px 0 75px 0;
 	padding: 15px 20px;
@@ -139,7 +151,12 @@ body {
 	color: #793F3D;
 }
 
-/* ID's */
+.footer p a:active {
+	color: white;
+}
+
+
+/* Social Link Section */
 
 #socialIcons {
 	margin: 15px 0 50px 0;
